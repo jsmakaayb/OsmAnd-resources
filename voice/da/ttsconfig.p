@@ -1,4 +1,4 @@
-﻿% for turbo-prolog
+% for turbo-prolog
 :- op('--', xfy, 500).
 % for swi-prolog
 :- op(500, xfy,'--').
@@ -19,9 +19,9 @@ language('da').
 % (N/A) special grammar: nominative/dativ for distance measure
 % (N/A) special grammar: imperative/infinitive distincion for turns
 % (X) distance measure: meters / feet / yard support
-% ( ) Street name announcement (deliberitely not in prepare_roundabout)
-% ( ) Name announcement for destination / intermediate / GPX waypoint arrival
-% ( ) Time announcement for new route
+% (X) Street name announcement (deliberitely not in prepare_roundabout)
+% (X) Name announcement for destination / intermediate / GPX waypoint arrival
+% (X) Time announcement for new route
 % (X) word order checked
 
 
